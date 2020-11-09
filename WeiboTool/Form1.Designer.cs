@@ -285,7 +285,7 @@
             this.bunifuButton3.IdleIconLeftImage = null;
             this.bunifuButton3.IdleIconRightImage = null;
             this.bunifuButton3.IndicateFocus = false;
-            this.bunifuButton3.Location = new System.Drawing.Point(32, 256);
+            this.bunifuButton3.Location = new System.Drawing.Point(32, 253);
             this.bunifuButton3.Name = "bunifuButton3";
             this.bunifuButton3.onHoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(105)))), ((int)(((byte)(181)))), ((int)(((byte)(255)))));
             this.bunifuButton3.onHoverState.BorderRadius = 3;
@@ -355,7 +355,7 @@
             this.bunifuButton4.IdleIconLeftImage = null;
             this.bunifuButton4.IdleIconRightImage = null;
             this.bunifuButton4.IndicateFocus = false;
-            this.bunifuButton4.Location = new System.Drawing.Point(32, 294);
+            this.bunifuButton4.Location = new System.Drawing.Point(32, 291);
             this.bunifuButton4.Name = "bunifuButton4";
             this.bunifuButton4.onHoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(105)))), ((int)(((byte)(181)))), ((int)(((byte)(255)))));
             this.bunifuButton4.onHoverState.BorderRadius = 3;
@@ -393,7 +393,7 @@
             this.rtbLog.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.rtbLog.Location = new System.Drawing.Point(353, 72);
             this.rtbLog.Name = "rtbLog";
-            this.rtbLog.Size = new System.Drawing.Size(418, 402);
+            this.rtbLog.Size = new System.Drawing.Size(418, 251);
             this.rtbLog.TabIndex = 7;
             this.rtbLog.Text = "";
             // 
@@ -460,7 +460,7 @@
             this.bunifuButton5.IdleIconLeftImage = null;
             this.bunifuButton5.IdleIconRightImage = null;
             this.bunifuButton5.IndicateFocus = false;
-            this.bunifuButton5.Location = new System.Drawing.Point(32, 218);
+            this.bunifuButton5.Location = new System.Drawing.Point(32, 215);
             this.bunifuButton5.Name = "bunifuButton5";
             this.bunifuButton5.onHoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(105)))), ((int)(((byte)(181)))), ((int)(((byte)(255)))));
             this.bunifuButton5.onHoverState.BorderRadius = 3;
@@ -663,7 +663,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 17F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(799, 499);
+            this.ClientSize = new System.Drawing.Size(799, 348);
             this.Controls.Add(this.tbPath);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label6);
