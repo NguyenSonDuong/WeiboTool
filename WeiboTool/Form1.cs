@@ -30,14 +30,9 @@ namespace WeiboTool
         {
             WriteLog("Lỗi: " + data, Color.Red);
         }
-
         private void Weibo_SuccessLoading(object data)
         {
             WriteLog("TẢI THÀNH CÔNG TÀI NGUYÊN NGƯỜI DÙNG" , Color.Green);
-        }
-        private void ProcessDownloadData(Object data)
-        {
-            WriteLog("Đã tải thành công: " + data, Color.Teal);
         }
         private void Weibo_ProcessLoading(object data)
         {
@@ -45,6 +40,10 @@ namespace WeiboTool
             if(card.mblog!=null)
             ActionWeiboAsync.ActionDownload(card, tbPath.Text + @"\", true, Weibo_ErrorLoading, ProcessDownloadData);
             
+        }
+        private void ProcessDownloadData(Object data)
+        {
+            WriteLog("Đã tải thành công: " + data, Color.Teal);
         }
         private async void bunifuButton3_Click(object sender, EventArgs e)
         {
